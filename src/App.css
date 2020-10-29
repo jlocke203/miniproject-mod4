@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/7206383/1820/1225/m1/fpnw/wm1/bq3k6blxw4cj6ma0uqqgxbnga25l4dwrcyncybr2mzec6rslzebyxr208vuwa8gy-.jpg?1572250423&s=6a1d30a7c4d48388bc2df9dfef2951f6') ;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.title{
+    font-family: 'Sacramento', cursive;
+    color: whitesmoke;
+}
+
+
+
+.card-div{
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.card {
+    width: 200px;
+    height: 450px;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    text-overflow: ellipsis;
+    flex: 0 0 20% ;
+    background-color: antiquewhite;
+}
+
+.card-pic{
+    max-width: 200px;
+    height: auto;
+    
+}
+
+.card-button{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
